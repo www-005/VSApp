@@ -59,20 +59,54 @@
 @media(max-width:768px){
 
 
-
 header{
-
-    padding:20px 5%;
-
+    padding:15px 20px;
 }
-
 
 
 .navbar{
 
-    flex-direction:column;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
 
-    gap:25px;
+}
+
+
+.logo{
+
+    display:flex;
+    align-items:center;
+    gap:8px;
+
+}
+
+
+.logo img{
+
+    width:45px;
+    height:45px;
+
+}
+
+
+.logo h2{
+
+    font-size:18px;
+
+}
+
+
+/* MENU BUTTON */
+
+.menu-btn{
+
+    display:flex;
+    background:none;
+    border:none;
+    color:white;
+    font-size:28px;
+    cursor:pointer;
 
 }
 
@@ -80,125 +114,48 @@ header{
 
 .nav-links{
 
-    gap:20px;
+    position:absolute;
+    top:75px;
+    left:20px;
+    right:20px;
+
+    background:#111827;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    display:none;
+
+    flex-direction:column;
+
+    text-align:center;
 
 }
 
 
 
-.logo h2{
-
-    font-size:20px;
-
-}
-
-
-
-.hero{
-
-    padding:40px 5%;
-
-}
-
-
-
-.hero-content h1{
-
-    font-size:35px;
-
-}
-
-
-
-.hero-content p{
-
-    font-size:15px;
-
-}
-
-
-
-.hero-buttons{
+.nav-links.active{
 
     display:flex;
 
-    flex-direction:column;
+}
 
-    gap:15px;
+
+
+.nav-links li{
+
+    margin:10px 0;
 
 }
 
 
 
-.second-btn{
+.main-btn{
 
-    margin-left:0;
-
-}
-
-
-
-.hero-image{
-
-    width:90%;
+    display:none;
 
 }
-
-
-
-
-.features{
-
-    padding:40px 5%;
-
-    flex-direction:column;
-
-    align-items:center;
-
-}
-
-
-
-.feature-card{
-
-    width:100%;
-
-}
-
-
-
-.featured{
-
-    padding:50px 5%;
-
-}
-
-
-
-.featured h2{
-
-    font-size:30px;
-
-}
-
-
-
-.apps-container{
-
-    flex-direction:column;
-
-    align-items:center;
-
-}
-
-
-
-.app-card{
-
-    width:100%;
-
-}
-
 
 
 }
@@ -272,3 +229,114 @@ header{
 
 
 }
+
+@media(max-width:768px){
+
+
+.app-details{
+
+    flex-direction:column;
+
+    padding:40px 20px;
+
+    text-align:center;
+
+}
+
+
+.app-icon img{
+
+    width:150px;
+
+    height:150px;
+
+}
+
+
+
+.app-content h1{
+
+    font-size:35px;
+
+}
+
+
+
+.app-content p{
+
+    font-size:15px;
+
+}
+
+
+
+.details-box{
+
+    flex-direction:column;
+
+    width:100%;
+
+}
+
+
+
+.details-box div{
+
+    width:100%;
+
+}
+
+
+
+.download-apk{
+
+    width:100%;
+
+}
+
+
+
+.shots{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+
+
+.shots img{
+
+    width:90%;
+
+}
+
+
+
+}
+
+@media(max-width:480px){
+
+
+.app-card{
+
+    width:100%;
+
+    padding:20px;
+
+}
+
+
+
+.app-card img{
+
+    width:100px;
+
+    height:100px;
+
+}
+
+
+}
+
