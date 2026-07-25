@@ -442,4 +442,31 @@ header{
 
 
 }
+@media(max-width:768px){
+
+    .search-box{
+
+        width:100%;
+
+        margin:25px auto;
+
+        padding:12px 15px;
+
+    }
+
+
+    .search-box input{
+
+        font-size:14px;
+
+    }
+
+
+    .search-box i{
+
+        font-size:18px;
+
+    }
+
+}
 
