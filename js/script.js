@@ -70,9 +70,8 @@ menuButton.addEventListener("click",()=>{
 
 
 }
-
 // =========================
-// APP SEARCH
+// APP SEARCH FUNCTION
 // =========================
 
 
@@ -84,39 +83,40 @@ const appCards = document.querySelectorAll(".app-card");
 if(searchInput){
 
 
-    searchInput.addEventListener("keyup", function(){
+    searchInput.addEventListener("input", function(){
 
 
-        let value = searchInput.value.toLowerCase();
+        const searchValue = this.value.toLowerCase();
 
 
 
-        appCards.forEach(card => {
+        appCards.forEach(function(card){
 
 
-            let appName = card
+            const appName = card
             .querySelector("h3")
             .textContent
             .toLowerCase();
 
 
 
-            if(appName.includes(value)){
+            if(appName.includes(searchValue)){
 
 
-                card.style.display="block";
+                card.style.display = "block";
 
 
-            }else{
+            } else {
 
 
-                card.style.display="none";
+                card.style.display = "none";
 
 
             }
 
 
         });
+
 
 
     });
