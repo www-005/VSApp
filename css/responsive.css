@@ -466,3 +466,35 @@ header{
 
 
 }
+
+@media(max-width:768px){
+
+
+.app-buttons a,
+.download-apk{
+
+    background:linear-gradient(
+        135deg,
+        #38BDF8,
+        #2563EB
+    ) !important;
+
+    color:white !important;
+
+}
+
+
+
+.app-buttons a:hover,
+.download-apk:hover{
+
+    background:linear-gradient(
+        135deg,
+        #60A5FA,
+        #38BDF8
+    ) !important;
+
+}
+
+
+}
