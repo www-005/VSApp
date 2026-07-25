@@ -1,0 +1,274 @@
+/* =========================
+   RESPONSIVE DESIGN
+   MOBILE + TABLET
+========================= */
+
+
+@media(max-width:1024px){
+
+
+    .hero{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+
+
+    .hero-content{
+
+        width:100%;
+
+    }
+
+
+
+    .hero-content h1{
+
+        font-size:45px;
+
+    }
+
+
+
+    .hero-image{
+
+        width:70%;
+
+        margin-top:40px;
+
+    }
+
+
+
+    .features{
+
+        flex-wrap:wrap;
+
+    }
+
+
+
+}
+
+
+
+
+@media(max-width:768px){
+
+
+
+header{
+
+    padding:20px 5%;
+
+}
+
+
+
+.navbar{
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+
+
+.nav-links{
+
+    gap:20px;
+
+}
+
+
+
+.logo h2{
+
+    font-size:20px;
+
+}
+
+
+
+.hero{
+
+    padding:40px 5%;
+
+}
+
+
+
+.hero-content h1{
+
+    font-size:35px;
+
+}
+
+
+
+.hero-content p{
+
+    font-size:15px;
+
+}
+
+
+
+.hero-buttons{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+
+
+.second-btn{
+
+    margin-left:0;
+
+}
+
+
+
+.hero-image{
+
+    width:90%;
+
+}
+
+
+
+
+.features{
+
+    padding:40px 5%;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+
+
+.feature-card{
+
+    width:100%;
+
+}
+
+
+
+.featured{
+
+    padding:50px 5%;
+
+}
+
+
+
+.featured h2{
+
+    font-size:30px;
+
+}
+
+
+
+.apps-container{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+
+
+.app-card{
+
+    width:100%;
+
+}
+
+
+
+}
+
+
+
+
+
+@media(max-width:480px){
+
+
+
+.hero-content h1{
+
+    font-size:30px;
+
+}
+
+
+
+.logo img{
+
+    width:45px;
+
+    height:45px;
+
+}
+
+
+
+.main-btn{
+
+    padding:12px 20px;
+
+}
+
+
+
+}
+/* MOBILE MENU */
+
+
+@media(max-width:768px){
+
+
+.nav-links{
+
+
+    display:none;
+
+    flex-direction:column;
+
+    background:#111827;
+
+    padding:20px;
+
+    border-radius:15px;
+
+
+}
+
+
+
+.nav-links.active{
+
+
+    display:flex;
+
+
+}
+
+
+}
