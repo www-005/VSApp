@@ -70,3 +70,56 @@ menuButton.addEventListener("click",()=>{
 
 
 }
+
+// =========================
+// APP SEARCH
+// =========================
+
+
+const searchInput = document.getElementById("searchApps");
+
+const appCards = document.querySelectorAll(".app-card");
+
+
+if(searchInput){
+
+
+    searchInput.addEventListener("keyup", function(){
+
+
+        let value = searchInput.value.toLowerCase();
+
+
+
+        appCards.forEach(card => {
+
+
+            let appName = card
+            .querySelector("h3")
+            .textContent
+            .toLowerCase();
+
+
+
+            if(appName.includes(value)){
+
+
+                card.style.display="block";
+
+
+            }else{
+
+
+                card.style.display="none";
+
+
+            }
+
+
+        });
+
+
+    });
+
+
+}
