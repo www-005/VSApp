@@ -888,3 +888,56 @@ footer p{
 
 }
 
+/* SEARCH BOX */
+
+
+.search-box{
+
+    margin:40px auto;
+
+    max-width:500px;
+
+    background:#111827;
+
+    padding:15px 20px;
+
+    border-radius:15px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    border:1px solid rgba(56,189,248,.2);
+
+}
+
+
+
+.search-box i{
+
+    color:#38BDF8;
+
+    font-size:20px;
+
+}
+
+
+
+.search-box input{
+
+    width:100%;
+
+    background:none;
+
+    border:none;
+
+    outline:none;
+
+    color:white;
+
+    font-size:16px;
+
+}
+
