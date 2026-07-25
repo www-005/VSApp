@@ -939,3 +939,92 @@ footer p{
 
 }
 
+/* APP CARD IMPROVEMENT */
+
+
+.app-card{
+
+    background:#111827;
+
+    padding:25px;
+
+    border-radius:25px;
+
+    transition:0.3s;
+
+}
+
+
+
+.app-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+
+.app-card img{
+
+    width:120px;
+
+    height:120px;
+
+    border-radius:25px;
+
+}
+
+
+
+.app-meta{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin:20px 0;
+
+    color:#94A3B8;
+
+    font-size:14px;
+
+}
+
+
+
+.app-buttons{
+
+    display:flex;
+
+    gap:10px;
+
+}
+
+
+
+.app-buttons a{
+
+    flex:1;
+
+    padding:12px;
+
+    border-radius:12px;
+
+    background:#2563EB;
+
+    color:white;
+
+    text-decoration:none;
+
+    text-align:center;
+
+}
+
+
+
+.app-buttons a:hover{
+
+    background:#38BDF8;
+
+}
+
