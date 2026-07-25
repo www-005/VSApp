@@ -60,7 +60,9 @@
 
 
 header{
+
     padding:15px 20px;
+
 }
 
 
@@ -73,11 +75,13 @@ header{
 }
 
 
+/* LOGO LEFT */
+
 .logo{
 
     display:flex;
     align-items:center;
-    gap:8px;
+    gap:10px;
 
 }
 
@@ -97,26 +101,43 @@ header{
 }
 
 
-/* MENU BUTTON */
+/* MENU RIGHT */
 
 .menu-btn{
 
-    display:flex;
+    display:block;
+
     background:none;
+
     border:none;
+
     color:white;
+
     font-size:28px;
-    cursor:pointer;
+
+}
+
+
+/* HIDE DESKTOP BUTTON */
+
+.main-btn{
+
+    display:none;
 
 }
 
 
 
+/* MOBILE NAV */
+
 .nav-links{
 
     position:absolute;
+
     top:75px;
+
     left:20px;
+
     right:20px;
 
     background:#111827;
@@ -131,6 +152,8 @@ header{
 
     text-align:center;
 
+    z-index:1000;
+
 }
 
 
@@ -143,17 +166,97 @@ header{
 
 
 
-.nav-links li{
+/* HERO */
 
-    margin:10px 0;
+.hero{
+
+    flex-direction:column;
+
+    text-align:center;
+
+    padding:40px 20px;
+
+}
+
+
+.hero-content{
+
+    width:100%;
 
 }
 
 
 
-.main-btn{
+.hero-content h1{
 
-    display:none;
+    font-size:32px;
+
+}
+
+
+/* APP DETAILS */
+
+
+.app-details{
+
+    flex-direction:column;
+
+    padding:40px 20px;
+
+    text-align:center;
+
+}
+
+
+.app-icon img{
+
+    width:150px;
+
+    height:150px;
+
+}
+
+
+.app-content h1{
+
+    font-size:35px;
+
+}
+
+
+.details-box{
+
+    flex-direction:column;
+
+}
+
+
+.details-box div{
+
+    width:100%;
+
+}
+
+
+.download-apk{
+
+    width:100%;
+
+}
+
+
+
+.shots{
+
+    flex-direction:column;
+
+}
+
+
+
+.shots img{
+
+    width:90%;
 
 }
 
