@@ -769,15 +769,33 @@ footer p{
 
     display:inline-block;
 
-    padding:16px 35px;
+    padding:15px 35px;
 
-    background:#2563EB;
+    background:linear-gradient(
+        135deg,
+        #38BDF8,
+        #2563EB
+    );
 
     color:white;
 
     text-decoration:none;
 
     border-radius:15px;
+
+    font-weight:600;
+
+    box-shadow:0 8px 20px rgba(37,99,235,0.35);
+
+    transition:0.3s;
+
+}
+
+
+
+.download-apk:hover{
+
+    transform:translateY(-3px);
 
 }
 
@@ -1006,17 +1024,41 @@ footer p{
 
     flex:1;
 
-    padding:12px;
+    padding:13px;
 
-    border-radius:12px;
+    border-radius:14px;
 
-    background:#2563EB;
+    background:linear-gradient(
+        135deg,
+        #38BDF8,
+        #2563EB
+    );
 
     color:white;
 
     text-decoration:none;
 
     text-align:center;
+
+    font-weight:600;
+
+    transition:0.3s;
+
+    box-shadow:0 8px 20px rgba(37,99,235,0.35);
+
+}
+
+
+
+.app-buttons a:hover{
+
+    transform:translateY(-3px);
+
+    background:linear-gradient(
+        135deg,
+        #60A5FA,
+        #38BDF8
+    );
 
 }
 
