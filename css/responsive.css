@@ -444,29 +444,25 @@ header{
 }
 @media(max-width:768px){
 
-    .search-box{
 
-        width:100%;
+.search-box{
 
-        margin:25px auto;
+    width:calc(100% - 40px);
 
-        padding:12px 15px;
+    margin:25px auto;
 
-    }
+    padding:12px 15px;
 
-
-    .search-box input{
-
-        font-size:14px;
-
-    }
-
-
-    .search-box i{
-
-        font-size:18px;
-
-    }
+    border-radius:15px;
 
 }
 
+
+.search-box input{
+
+    font-size:14px;
+
+}
+
+
+}
